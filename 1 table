@@ -1,0 +1,52 @@
+DOCTYPE html>
+<html>
+<head>
+<style>
+table, td, th {
+  border: 1px solid pink;
+}
+table{
+    border-collapse: collapse;
+
+}
+th{
+    height: 50px;
+}
+</style>
+</head>
+<body>
+    <hr> the width and height properties </hr>
+    <p>set the width of the table, and height of the table header row: </p>
+    <table>
+        <tr>
+           <th>first name</th>
+           <th>last name</th> 
+           <th>savings</th>
+        </tr>
+        <tr>
+            <td>Naradhra</td>
+            <td>modi</td>
+            <td>rs100</td>
+            <img src="modi.jpg">
+        </tr>
+        <tr>
+            <td>tiger</td>
+            <td>yellow</td>
+            <td>rs 150</td>
+        <img src="tiger.jpg">
+        </tr>
+        <tr>
+            <td>virat</td>
+            <td>kholi</td>
+            <td>rs 200</td>
+            <img src="virkat kohali.jpg">
+        </tr>
+        <tr>
+            <td>Nayan </td>
+            <td>thara</td>
+            <td>rs 250</td>
+            <img src="nayananthra.jpg">
+        </tr>
+    </table>
+</body>
+</html>
