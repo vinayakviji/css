@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    .newspaper{
+        -webkit-column-count:3;
+        -webkit-column-gap:40px;
+    -moz-column-count:3;
+    -moz-column-gap: 40px;
+column-count:3;
+column-gap:40px; 
+
+    }
+    </style>
+    <body>
+        <div class="newspaper">
+            ydyddjdgddrvdfg
+            dgdgdggdgdgdgdgdg
+            tgdggdtdtge6gte
+            fdtdgdtd6
+            gddvddtege
+            fgdtgdgrghrgghrghrhgrgrggg
+            trhggegrgfssfsfsfgdsfdsfsf
+            gffdfdgdgdgdg
+            fgfgfgfdtgdhdfgh
+            fsggshsghe356fbdgdghhgsfsgbdhhddgh
+            ggnfhnfhfhjfjhgjfdgfdgfgfgddgdhdgjjjggdgdg
+            gfgfgdggvvfdghgdggdhgdgjgdgddsvcsff
+        </div>
+    </body>
+</html>
