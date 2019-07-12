@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0:0px
+            }
+            .header{
+                background-color:blue;
+                padding:20px;
+                text-align:center; 
+            }
+            .topnav{
+                overflow: hidden;
+                background-color: #333;
+                }
+                .topnav a{
+                    float: left;
+                    color: #f1f1f1;
+                    text-align:center;
+                    padding:14px 16px;
+                    text-decoration:none;
+                }
+                .topnav a:hover{
+                    background-color: red;
+                    color: pink;
+                }
+            .column{
+                float: left;
+                width: 33.33%;
+                padding: 15px
+            }
+            .row:after{
+                content:"";
+                display:table;
+                clear:both;
+            }
+            @media screen and (max-width:600px){
+                .column{
+                width:100%;
+            }
+            }
+        
+        
+            #rcorners1{
+                border-radius: 25px;
+                background-color:#73Ad21;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+                            }
+                    #rcorners2{
+                        border-radius:25px;
+                        border:2 px solid #73Ad21;                  padding:20 px;
+                        width:200 px;
+                        height:150 px;
+                    }
+            #rcorners3{
+                border-radius: 25px;
+                background: url(tajhmal.jpeg);
+                background-position:left top;
+                background-repeat:repeat;
+                padding:20px;
+                width:200px;
+                height:150px;
+            }
+        .footer{
+            background-color:pink;
+            padding:10px;
+            text-align:center;
+        }
+        </style>
+        </head>                        
+        <body>
+        <div class="header">
+    <h1>my website</h1>
+        </div>
+        <div class="topnav">
+        <a class="#">link</a>
+        <a class="#">link</a>
+        <a class="#">link</a>
+        </div>
+        <div class="row">
+        <div class="column">
+        <h2>column</h2>
+        <p>nshnsjjsmnshnshns
+        bhbsghsbshsbsdgsbh
+        shghsgsbsghnshbnshgs
+        ghgsgvvsfsfsvgsfsgsfvsfs
+        gsgshlsksikjs</p>
+    
+        <p><img src="C:\Users\hp\Desktop\New folder (2)\JVTest\car.jpeg">
+        </div>
+        <div class="column">
+        <h2> column</h2>
+        
+        <p id="rcorners1">Round Corners</p>
+            <p id="rcorners2">Round Corners</p>
+            <p id="rcorners3">Round Corners</p>
+        <p>kmjmsj
+        ghshhshshsh
+        sgvsgsgbsvg
+        fgsgsgsgsgs</p>
+        
+        <P><img src="bus.jpeg"></P>
+        </div>
+        div class="column">
+        <h2> column</h2>
+        <p>kmjmsj
+        ghshhshshsh
+        sgvsgsgbsvg
+        fgsgsgsgsgs</p>
+        
+        <P><img src="train.jpeg"></P>
+        </div>
+        </div>
+        <div class="footer">
+        <p>footer</p>
+        </div>
+        </body>
+        </html>
+    
+    
+
