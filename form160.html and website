@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head<body>
+        <style>
+    body{
+    margin: 0;
+    }
+    .header{
+        background-color:#f1f1f1;
+        padding: 20px;
+        text-align:center;
+    }
+            .topnav{
+            overflow:hidden;
+                background-color:#f1f1f1; 
+            }
+            .topnav a{
+                float: left;
+                color:purple;
+                text-align:center;
+                padding:14px 16px;
+                text-decoration:none;
+                }
+                
+                    .topnav a:hover{
+                background-color:rgb(240,12,12);
+                    }
+                .column{
+                    float:left;
+                    width: 33.33%;
+                    padding: 15px
+                }
+                .row:after{
+                    content: "";
+                    display: table;
+                    clear:both;
+                    }
+                    @media screen and(max-width:600p){
+                        .column{
+                        width:100%
+                        }
+                    }
+                  </style>
+     </head>
+     <body>
+        <div class="header">
+            <h1>my website</h1>
+        </div>
+        <div class="topnav">
+            <a href="#">link </a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            </div>
+            <div class="row">
+                <div class="column">
+                <h2>column</h2>
+                <p>fhfhfhfhfhfhfhhfhfh
+                    ujfjfjfjfjfjfjf
+                    flflffgllglglglglg
+                    lglglglglglggl
+                    uggkgggkgkggk
+                    hhfhfhffhfhffh
+                    hjf8jfnfjfmfhgjgjgj
+                </p>
+                
+            </div>
+                <div class="column">
+                <h2>column</h2>
+                <p>kgkgkgkgkkkgkgkgkkgkkgk
+                    jjgjgjgjgkgkgkkggk
+                    llglg;glglglglgglhl
+                    lglglgblgllglglg
+                    kgkgkgkgkgkgkgk77777
+                    000000000000
+                    fhhhfhfhfhf
+                    gfjfhfhfhfhfhfhfhff
+                </p>
+            </div>
+            </div>
+            </body>
+            </html>
