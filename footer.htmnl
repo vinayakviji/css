@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    .footer{
+        background-color:f1df1f1;
+        padding 10 px;
+        text-align: centre;
+        }
+        <body>
+        <div classs="footer">
+        <p>footer</p>
+        </div>
