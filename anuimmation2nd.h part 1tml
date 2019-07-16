@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width:100px;
+                height:50px;
+                background-color:red;
+                font-weight:bold;
+                position:relative;
+                
+            -webkit-animation: mymove 5s infinite;
+            animation:mymove 5s infinite;
+            }
+                #div1{-webkit-animation-timing-function:linear; }
+               
+                /*standard*/
+                #div1{animation-timing-function:linear;}
+            
+                @-webkit-keyframes mymove {
+                    from{left:0px;}
+                    to{left:1250px;}
+                }
+                @keyframes mymove{
+                    from{left:0px;}
+                    to{left:1250px;}
+                    }       
+                    </style>
+    </head>
+    <body>a
+    <div id="div1">iiht institute</div>
+    
+    </body>
+    </html>
