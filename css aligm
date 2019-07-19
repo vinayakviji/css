@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  background-color: red;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Center </h2>
+<p>hello world</p>
+
+<div class="center">
+  <p>i am VINAYAK</p>
+</div>
+
+</body>
+</html>
