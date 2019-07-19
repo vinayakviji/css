@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        span.a{
+            display:inline;
+            width: 100px;
+            padding: 15px;
+            border: 1px sold blue;
+            background-color: yellow;
+        }
+    </style>
+    <h1>my heading</h1>
+    <div>mynative place is kerela. There we have many relatives <span class="a"> kerela</span>
+        <span class="a">relatives</span>
+   <body>    
+    </body>
+</html>
