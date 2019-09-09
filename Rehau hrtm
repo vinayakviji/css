@@ -1,0 +1,139 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <style>
+*{
+ box-sizing: border-box
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color:yellow;
+    padding:20px;
+    text-align:center;
+}
+;.topnav{
+overflow:hidden;
+background-color:purple; 
+}
+.topnav a{
+    float:left;
+    color:red;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+.topnav a:hover{
+    background-color:rgb(0, 19, 128);
+    color:pink; 
+    }
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing:border-box; 
+}
+form.example input[type=text]{
+padding:5px;
+font-size:17px;
+border:1px solid grey;
+float: right: ;
+width:80%;
+background-color:#f1f1f1;
+}
+form.example button{
+float:right;
+width:20%;
+padding:10px;
+background-color:pink;
+font-size:17px;
+border: 1px solid grey;
+border-left:none;
+cursor: pointer;
+}
+form.example button:hover{`
+background:#0b7dda; 
+}
+form.example::after{|
+content:"";
+clear: both;
+display:table;
+}
+div{
+                width:100px;
+                height:50px;
+                background-color:red;
+                font-weight:bold;
+                position:relative;
+                
+            -webkit-animation: mymove 5s infinite;
+            animation:mymove 5s infinite;
+            }
+                #div1{-webkit-animation-timing-function:linear; }
+               
+                /*standard*/
+                #div1{animation-timing-function:linear;}
+            
+                @-webkit-keyframes mymove {
+                    from{left:0px;}
+                    to{left:1250px;}
+                }`
+.footer{
+    background-color:red;
+    padding:5px;
+    text-align:center;
+}
+</style>
+    </head>
+    <body>
+<div id="div1">REHAU BANGALORE</div>
+<h2><left><img src="C:\Users\hp\Desktop\New folder\REHAU_Logo_sRGB (1).jpg"width="200" height="100"></h2></left
+    <div class="topnav">
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            </div>
+<center><h3>what is REHAU?</center></h3>
+REHAU- the name youu can trust.
+    
+REHAU was founded in Germany in 1948 and first entered the UK market in 1962 - in fact we have just celebrated our 50th year in business in the UK. Today we are a truly global company, established in 170 countries and with more than 15,000 employees. As a privately owned company we bring the guarantee of stability and continuity to the market.
+
+REHAU were one of the first companies to produce and sell uPVC window and door systems in the UK and today all of our windows and doors systems are produced in our state of art manufacturing plant in North Wales – bringing together the best in German design with UK manufacture.
+
+All of our products are designed with you in mind to enhance your home whilst providing energy efficiency and durability. Our innovative energy efficient windows and doors, underfloor heating and ground source heating systems help you to save money and keep your home energy efficient.
+
+Mercedes Not only are we the established market leader in the supply of uPVC windows and doors systems, but we have been supplying underfloor heating systems for over 30 years. But that is only part of the story, our range of innovative polymer products attract globally respected and high profile companies such as BMW, Mercedes and Airbus. Whether it is in industry, construction or the latest automotive technology, the REHAU brand stands for unbeatable performance and technical excellence.
+REHAU Bangalore address
+48, RICHMOND ROAD, RICHMONDTOWN, BENGALURE,M KARANTKA,50025
+
+<img src="C:\Users\hp\Desktop\New folder\download.jpeg">
+<center><img src="C:\Users\hp\Desktop\New folder\images.jpeg"></center>
+<center><img src="C:\Users\hp\Desktop\New folder\Showroom.jpg" width="200" height="100"></center>
+<center><video controls>
+<source src="https://www.youtube.com/watch?v=bdW_sfORZn8">
+</video></center>
+
+
+<h4>search button</h4>
+<p>full width:</p>
+<form class="example"
+action="/action_ page.php">
+<input type="text"
+placeholder="search.."  name="search">
+<button type="submit"><i class="fafa-search"></i> </button>
+</form>
+<form class="example"
+action="<action_ page.php"
+style="margin: auto; max-width: width 300px">
+<input type="text"
+placeholder="search.."name="search2">
+</form>
+
+
+            <div class="footer">/
+        <p>REHAU</p>
+    </div>
+</body>
+</html>
